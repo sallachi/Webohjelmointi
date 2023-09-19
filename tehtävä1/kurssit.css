@@ -1,0 +1,98 @@
+body,
+h1,
+h2,
+p {
+  background-color: #fffafa;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+ul {
+  font-size: 1.4rem;
+}
+
+.Otsikko {
+  text-align: left;
+  font-size: 3.1rem;
+  margin-top: 0rem;
+  margin-bottom: 0.2rem;
+}
+
+header {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  background-color: rgb(208, 175, 244);
+  font-size: 20px;
+  margin-top: 0.1rem;
+  margin-left: 0rem;
+}
+
+button {
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(243, 209, 249);
+  padding: 0.7rem;
+  border-width: 0.05rem;
+}
+
+button:hover {
+  background-color: #fffafa;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+#vasen {
+  width: 40%;
+  text-align: left;
+  padding: 1.1rem;
+  padding-top: 0rem;
+}
+
+#oikea {
+  width: 10%;
+  float: right;
+  margin-top: 0rem;
+  margin-right: 14%;
+  margin-left: 5%;
+  padding-left: 1rem;
+  padding-right: 2.5rem;
+  border-style: solid;
+  border-width: 0.5rem;
+  border-color: rgb(208, 175, 244);
+}
+
+#center {
+  width: 70%;
+  height: 50%;
+  /*position: fixed;*/
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0rem;
+  bottom: 0;
+  padding-left: 35%;
+  padding-right: 35%;
+  text-align: left;
+}
