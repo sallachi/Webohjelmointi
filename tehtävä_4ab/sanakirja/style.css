@@ -1,0 +1,63 @@
+header {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: blueviolet;
+  font-size: 20px;
+}
+
+body,
+h1,
+h2,
+p {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0 0 0 0;
+  background-image: var(--taustakuva);
+}
+
+h1 {
+  padding-left: 0.4rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+p {
+  text-align: center;
+  font-size: 1.4rem;
+  padding-bottom: 0.5rem;
+}
+
+#form {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#AddForm {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Nappien muotoilu, tässä koskee siis vain header kohdassa olevia, ei submit muotoisia */
+button {
+  background-color: aliceblue;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  transition-duration: 0.4s;
+}
+
+input {
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+}

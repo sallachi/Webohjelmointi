@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $('[name="Submit"]').click(function () {
+          const sana = $("#fi").val();
+
+          $.get("/sanakirja/" + sana, (data) => {
+            $("#result").html(data);
+          });
+        });
+      });
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Sanakirja: Suomi - Englanti</h1>
+    <header>
+      <!--Navigointipalkin luonti ja siihen napit, joiden avulla liikutaan sivuille-->
+      <button onclick="window.location.href='haku'" class="menu">Haku</button>
+      <button onclick="window.location.href='index'" class="menu">
+        Lisäys
+      </button>
+    </header>
+
+    <h2>Hae sanaa sanakirjasta</h2>
+    <p>
+      Syötä hakukenttään suomenkielinen sana hakiaksesi sen englannin kielistä
+      vastinetta.
+    </p>
+    <!--Formi sanan hakua varten-->
+    <form id="form" name="form">
+      <table>
+        <tr>
+          <td>Sana suomeksi:</td>
+          <td>
+            <input
+              name="fi"
+              id="fi"
+              type="text"
+              value=""
+              maxlength="35"
+              size="35"
+            />
+          </td>
+          <td>
+            <input name="Submit" type="button" value="Hae" />
+          </td>
+        </tr>
+        <tr>
+          <td>Sana englanniksi:</td>
+          <td id="result"></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
