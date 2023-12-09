@@ -1,0 +1,22 @@
+.palaa {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.nupikat{
+  margin-right: 0.3%;
+  margin-top: 0,3%;
+}
+
+.urheilija{
+  margin: 0.5%;
+}
+
+.tiedot{
+  font-size: 120%;
+}
+
+.bold{
+  font-weight: 700;
+}

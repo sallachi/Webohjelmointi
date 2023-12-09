@@ -1,0 +1,23 @@
+.palaa {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 15px;
+  }
+
+  .osio{
+    margin: 0.8%;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .luo{
+    margin-top: 0.3%;
+  }
+
+.vasen{
+    justify-content: left;
+}
+
+.oikea{
+    justify-content: right;
+}
